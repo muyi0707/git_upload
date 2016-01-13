@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andbase.MainActivity" 
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello_world" />
+
+    <Button 
+        android:id="@+id/QQ_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQLogin"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+	    <Button 
+	        android:id="@+id/WeChat_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="WeChat"
+	        />
+	    <Button 
+	        android:id="@+id/WeChat_login_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="WeChatLogin"
+	        />
+        
+    </LinearLayout>
+    <Button 
+        android:id="@+id/OneShare_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OneKeyShare"
+        />
+    <Button 
+        android:id="@+id/sina_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SinaWeibo"
+        />
+    <Button 
+        android:id="@+id/sms_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        />
+</LinearLayout>
